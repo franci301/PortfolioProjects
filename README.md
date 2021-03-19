@@ -6,3 +6,5 @@ This is a program I made when tutoring a student to demonstrate GUI's and databa
 VERSION1.py:
 This is a graphing calculator that I made for my coursework in year 13.
 It demonstrated the use of GUI's but is quite inefficient in the code. I will come back to this and modify it.
+
+Source code to other projects will be made available soon.
