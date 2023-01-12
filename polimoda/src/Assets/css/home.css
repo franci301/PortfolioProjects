@@ -1,0 +1,129 @@
+:root {
+    --yellow: #f6c240;
+    --purple: #3f285c;
+    --red: #8a181c;
+    --brown: #453127;
+}
+
+* {
+    font-family: "Acumin Variable Concept";
+}
+
+#left-home-img {
+    object-fit: cover;
+    max-width: 100%;
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+}
+
+#right-home-img {
+    object-fit: cover;
+    max-width: 100%;
+}
+
+#homeContainer {
+    height: 100vh;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+@media screen and (max-width: 992px) {
+    #homeContainer {
+        height: 193vh;
+    }
+}
+
+#nestedContainer {
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+#leftImg {
+    position: relative;
+    padding-right: 0;
+    object-fit: cover;
+}
+
+#rightImg {
+    position: relative;
+    padding-top: 2%;
+    padding-right: 0;
+    object-fit: cover;
+}
+
+#testTxt {
+    position: relative;
+    z-index: 1000;
+    color: var(--purple);
+    font-weight: bold;
+    font-size: 150%;
+    top: -20%;
+    width: 95%;
+    left: 4%;
+}
+
+#rightImgContainer {
+    /* width: 55%; */
+    height: 70vh;
+}
+
+#rightImg img {
+    width: 100%;
+    object-fit: cover;
+}
+
+#exploreButton {
+    position: absolute;
+    left: 31%;
+    top: 34%;
+    width: 39%;
+    padding: 5px;
+    font-weight: bold;
+    background-color: var(--red);
+    color: white;
+    border: none;
+}
+
+#archStories {
+    position: relative;
+    color: var(--red);
+    font-weight: bold;
+    font-size: 150%;
+}
+
+
+/* media queries for mac and windows screens */
+
+#testButton {
+    position: absolute;
+    left: 35%;
+    top: 34%;
+    width: 30%;
+    z-index: 1000;
+    padding: 5px;
+    font-weight: bold;
+    background-color: var(--purple);
+    color: white;
+    border: none;
+}
+
+#rightImg p {
+    padding-top: 1%;
+}
+
+@media screen and (min-width: 999px) {
+    #leftImg {
+        margin-right: 2%;
+    }
+    #rightImg {
+        margin-left: 2%;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    #rightImg p {
+        bottom: 30% !important;
+    }
+}

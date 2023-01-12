@@ -1,0 +1,740 @@
+#test {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 20px;
+}
+
+#testContainer {
+    min-height: 100vh;
+}
+
+#testContainer img {
+    width: 100%;
+}
+
+@media screen and (max-width:800px) {
+    #door-parent {
+        position: absolute;
+        /* background-color: red; */
+        z-index: 10000;
+        width: 150px;
+        left: 3%;
+        top: 45%;
+        padding-right: 5%;
+        height: 90%;
+    }
+    #questions-container #choiceDiv {
+        width: 100%;
+        font-size: 1.8vw;
+    }
+    #start-div p {
+        position: absolute;
+        top: 68%;
+        left: 28%;
+        z-index: 1000;
+        color: white;
+        width: 40%;
+        font-size: 1.5vw;
+    }
+    /* #start-div h2 {
+        position: absolute;
+        top: 42%;
+        left: 28%;
+        z-index: 1000;
+        color: white;
+        width: 40%;
+    } */
+}
+
+@media screen and (min-width:660px) and (max-width:670px) {
+    #door-parent {
+        position: absolute;
+        /* background-color: red; */
+        z-index: 10000;
+        width: 120px;
+        left: 3%;
+        top: 30%;
+        padding-right: 5%;
+        height: 80%;
+    }
+    #questions-container #choiceDiv {
+        width: 100%;
+        font-size: 1.8vw;
+    }
+    #start-div p {
+        position: absolute;
+        top: 59%;
+        left: 28%;
+        z-index: 1000;
+        color: white;
+        width: 40%;
+        font-size: 1.5vw;
+    }
+}
+
+@media screen and (min-width:700px) and (max-width:720px) {
+    #door-parent {
+        position: absolute;
+        /* background-color: red; */
+        z-index: 10000;
+        width: 150px;
+        left: 3%;
+        top: 45%;
+        padding-right: 5%;
+        height: 90%;
+    }
+    #questions-container #choiceDiv {
+        width: 100%;
+        font-size: 1.8vw;
+    }
+    #start-div p {
+        position: absolute;
+        top: 54%;
+        left: 28%;
+        z-index: 1000;
+        color: white;
+        width: 40%;
+        font-size: 1.5vw;
+    }
+}
+
+@media screen and (min-width:721px) and (max-width:740px) {
+    #door-parent {
+        position: absolute;
+        /* background-color: red; */
+        z-index: 10000;
+        width: 120px;
+        left: 3%;
+        top: 55%;
+        padding-right: 5%;
+        height: 100%;
+    }
+    #questions-container #choiceDiv {
+        width: 100%;
+        font-size: 1.8vw;
+    }
+    #start-div p {
+        position: absolute;
+        top: 75%;
+        left: 28%;
+        z-index: 1000;
+        color: white;
+        width: 40%;
+        font-size: 1.5vw;
+    }
+}
+
+@media screen and (min-width:735px) and (max-width:737px) {
+    #door-parent {
+        position: absolute;
+        /* background-color: red; */
+        z-index: 10000;
+        width: 120px;
+        left: 3%;
+        top: 30%;
+        padding-right: 5%;
+        height: 90%;
+    }
+    #questions-container #choiceDiv {
+        width: 100%;
+        font-size: 1.8vw;
+    }
+    #start-div p {
+        position: absolute;
+        top: 55%;
+        left: 28%;
+        z-index: 1000;
+        color: white;
+        width: 40%;
+        font-size: 1.5vw;
+    }
+}
+
+@media screen and (min-width:750px) and (max-width:780px) {
+    #door-parent {
+        position: absolute;
+        /* background-color: red; */
+        z-index: 10000;
+        width: 150px;
+        left: 3%;
+        top: 38%;
+        padding-right: 5%;
+        height: 90%;
+    }
+    #questions-container #choiceDiv {
+        width: 100%;
+        font-size: 1.8vw;
+    }
+    /* moved 18% */
+    #start-div p {
+        position: absolute;
+        top: 58%;
+        left: 28%;
+        z-index: 1000;
+        color: white;
+        width: 40%;
+        font-size: 1.5vw;
+    }
+}
+
+@media screen and (min-width:780px) and (max-width:799px) {
+    #door-parent {
+        position: absolute;
+        /* background-color: red; */
+        z-index: 10000;
+        width: 150px;
+        left: 3%;
+        top: 27%;
+        padding-right: 5%;
+        height: 90%;
+    }
+    #questions-container #choiceDiv {
+        width: 100%;
+        font-size: 1.8vw;
+    }
+    /* moved 18% */
+    #start-div p {
+        position: absolute;
+        top: 50%;
+        left: 28%;
+        z-index: 1000;
+        color: white;
+        width: 40%;
+        font-size: 1.5vw;
+    }
+}
+
+@media screen and (min-width:800px) and (max-width:820px) and (max-height:370px) {
+    #door-parent {
+        position: absolute;
+        /* background-color: red; */
+        z-index: 10000;
+        width: 150px;
+        left: 3%;
+        top: 45%;
+        padding-right: 5%;
+        height: 90%;
+    }
+    #questions-container #choiceDiv {
+        width: 100%;
+        font-size: 1.8vw;
+    }
+    #start-div p {
+        position: absolute;
+        top: 65%;
+        left: 28%;
+        z-index: 1000;
+        color: white;
+        width: 40%;
+        font-size: 1.5vw;
+    }
+}
+
+@media screen and (min-width:800px) and (max-width:820px) and (max-height:335px) {
+    #door-parent {
+        position: absolute;
+        /* background-color: red; */
+        z-index: 10000;
+        width: 150px;
+        left: 3%;
+        top: 45%;
+        padding-right: 5%;
+        height: 90%;
+    }
+    #questions-container #choiceDiv {
+        width: 100%;
+        font-size: 1.8vw;
+    }
+    #start-div p {
+        position: absolute;
+        top: 68%;
+        left: 28%;
+        z-index: 1000;
+        color: white;
+        width: 40%;
+        font-size: 1.5vw;
+    }
+}
+
+@media screen and (min-width:800px) and (max-width:810px) and (min-height:331px) and (max-height:361px) {
+    #door-parent {
+        position: absolute;
+        /* background-color: red; */
+        z-index: 10000;
+        width: 150px;
+        left: 3%;
+        top: 40%;
+        padding-right: 5%;
+        height: 90%;
+    }
+    #questions-container #choiceDiv {
+        width: 100%;
+        font-size: 1.8vw;
+    }
+    #start-div p {
+        position: absolute;
+        top: 62%;
+        left: 28%;
+        z-index: 1000;
+        color: white;
+        width: 40%;
+        font-size: 1.5vw;
+    }
+}
+
+@media screen and (min-width:810px) and (max-width:813px) and (min-height:370px) and (max-height:375px) {
+    #door-parent {
+        position: absolute;
+        /* background-color: red; */
+        z-index: 10000;
+        width: 150px;
+        left: 3%;
+        top: 40%;
+        padding-right: 5%;
+        height: 90%;
+    }
+    #questions-container #choiceDiv {
+        width: 100%;
+        font-size: 1.8vw;
+    }
+    #start-div p {
+        position: absolute;
+        top: 62%;
+        left: 28%;
+        z-index: 1000;
+        color: white;
+        width: 40%;
+        font-size: 1.5vw;
+    }
+}
+
+@media screen and (min-width:821px) and (max-width:850px) and (max-height:310px) {
+    #door-parent {
+        position: absolute;
+        /* background-color: red; */
+        z-index: 10000;
+        width: 150px;
+        left: 3%;
+        top: 45%;
+        padding-right: 5%;
+        height: 90%;
+    }
+    #questions-container #choiceDiv {
+        width: 100%;
+        font-size: 1.8vw;
+    }
+    #start-div p {
+        position: absolute;
+        top: 68%;
+        left: 28%;
+        z-index: 1000;
+        color: white;
+        width: 40%;
+        font-size: 1.5vw;
+    }
+}
+
+@media screen and (min-width:840px) and (max-width:850px) and (max-height:390px) {
+    #door-parent {
+        position: absolute;
+        /* background-color: red; */
+        z-index: 10000;
+        width: 150px;
+        left: 3%;
+        top: 35%;
+        padding-right: 5%;
+        height: 90%;
+    }
+    #questions-container #choiceDiv {
+        width: 100%;
+        font-size: 1.8vw;
+    }
+    #start-div p {
+        position: absolute;
+        top: 65%;
+        left: 28%;
+        z-index: 1000;
+        color: white;
+        width: 40%;
+        font-size: 1.5vw;
+    }
+}
+
+@media screen and (min-width:840px) and (max-width:850px) and (max-height:310px) {
+    #door-parent {
+        position: absolute;
+        /* background-color: red; */
+        z-index: 10000;
+        width: 150px;
+        left: 3%;
+        top: 55%;
+        padding-right: 5%;
+        height: 100%;
+    }
+    #questions-container #choiceDiv {
+        width: 100%;
+        font-size: 1.8vw;
+    }
+    #start-div p {
+        position: absolute;
+        top: 75%;
+        left: 28%;
+        z-index: 1000;
+        color: white;
+        width: 40%;
+        font-size: 1.5vw;
+    }
+}
+
+@media screen and (min-width:890px) and (max-width:896px) and (max-height:331px) {
+    #door-parent {
+        position: absolute;
+        /* background-color: red; */
+        z-index: 10000;
+        width: 150px;
+        left: 3%;
+        top: 70%;
+        padding-right: 5%;
+        height: 100%;
+    }
+    #questions-container #choiceDiv {
+        width: 100%;
+        font-size: 1.8vw;
+    }
+    #start-div p {
+        position: absolute;
+        top: 73%;
+        left: 28%;
+        z-index: 1000;
+        color: white;
+        width: 40%;
+        font-size: 1.5vw;
+    }
+}
+
+@media screen and (min-width:890px) and (max-width:896px) and (max-height:414px) {
+    #door-parent {
+        position: absolute;
+        /* background-color: red; */
+        z-index: 10000;
+        width: 150px;
+        left: 3%;
+        top: 35%;
+        padding-right: 5%;
+        height: 100%;
+    }
+    #questions-container #choiceDiv {
+        width: 100%;
+        font-size: 1.8vw;
+    }
+    #start-div p {
+        position: absolute;
+        top: 55%;
+        left: 28%;
+        z-index: 1000;
+        color: white;
+        width: 40%;
+        font-size: 1.5vw;
+    }
+}
+
+@media screen and (min-width:895px) and (max-width:897px) and (max-height:414px) {
+    #door-parent {
+        position: absolute;
+        /* background-color: red; */
+        z-index: 10000;
+        width: 150px;
+        left: 3%;
+        top: 35%;
+        padding-right: 5%;
+        height: 100%;
+    }
+    #questions-container #choiceDiv {
+        width: 100%;
+        font-size: 1.8vw;
+    }
+    #start-div p {
+        position: absolute;
+        top: 65%;
+        left: 28%;
+        z-index: 1000;
+        color: white;
+        width: 40%;
+        font-size: 1.5vw;
+    }
+}
+
+@media screen and (min-width:920px) and (max-width:930px) and (max-height:428px) {
+    #door-parent {
+        position: absolute;
+        /* background-color: red; */
+        z-index: 10000;
+        width: 150px;
+        left: 3%;
+        top: 30%;
+        padding-right: 5%;
+        height: 100%;
+    }
+    #questions-container #choiceDiv {
+        width: 100%;
+        font-size: 1.8vw;
+    }
+    #start-div p {
+        position: absolute;
+        top: 57%;
+        left: 28%;
+        z-index: 1000;
+        color: white;
+        width: 40%;
+        font-size: 1.5vw;
+    }
+}
+
+@media screen and (min-width:1178px) {
+    #door-parent {
+        position: absolute;
+        /* background-color: red; */
+        z-index: 10000;
+        width: 150px;
+        left: 5%;
+        top: 15%;
+        padding-right: 5%;
+        height: 75%;
+    }
+    #start-room-div p {
+        position: absolute;
+        top: 55%;
+        left: 28%;
+        z-index: 1000;
+        color: white;
+        width: 40%;
+    }
+    #start-room-div h2 {
+        position: absolute;
+        top: 42%;
+        left: 28%;
+        z-index: 1000;
+        color: white;
+        width: 40%;
+    }
+    /* #testCenterDiv h6 {
+        position: absolute;
+        left: 10%;
+        top: 5%;
+    } */
+}
+
+@media screen and (min-width:1100px) and (max-width:1349px) {
+    #door-parent {
+        position: absolute;
+        /* background-color: red; */
+        z-index: 10000;
+        width: 150px;
+        left: 8%;
+        top: 20%;
+        padding-right: 5%;
+        height: 70%;
+    }
+    #questions-container #choiceDiv {
+        width: 100%;
+        font-size: 1.8vw;
+    }
+    #start-div p {
+        position: absolute;
+        top: 39%;
+        left: 28%;
+        z-index: 1000;
+        color: white;
+        width: 40%;
+        font-size: 1.5vw;
+    }
+}
+
+@media screen and (min-width:1350px) and (max-width:1399px) {
+    #door-parent {
+        position: absolute;
+        /* background-color: red; */
+        z-index: 10000;
+        width: 150px;
+        left: 8%;
+        top: 30%;
+        padding-right: 5%;
+        height: 90%;
+    }
+    #questions-container #choiceDiv {
+        width: 100%;
+        font-size: 1.8vw;
+    }
+    #start-div p {
+        position: absolute;
+        top: 47%;
+        left: 28%;
+        z-index: 1000;
+        color: white;
+        width: 40%;
+        font-size: 1.5vw;
+    }
+}
+
+@media screen and (min-width:1400px) and (max-width:1440px) {
+    #door-parent {
+        position: absolute;
+        /* background-color: red; */
+        z-index: 10000;
+        width: 150px;
+        left: 8%;
+        top: 30%;
+        padding-right: 5%;
+        height: 90%;
+    }
+    #questions-container #choiceDiv {
+        width: 100%;
+        font-size: 1.8vw;
+    }
+    #start-div p {
+        position: absolute;
+        top: 47%;
+        left: 28%;
+        z-index: 1000;
+        color: white;
+        width: 40%;
+        font-size: 1.5vw;
+    }
+}
+
+@media screen and (min-width:1900px) and (max-width:1940px) and (min-height:1100px) {
+    #door-parent {
+        position: absolute;
+        /* background-color: red; */
+        z-index: 10000;
+        width: 190px;
+        left: 8%;
+        top: 30%;
+        padding-right: 5%;
+        height: 70%;
+    }
+    #questions-container #choiceDiv {
+        width: 100%;
+        font-size: 1.8vw;
+    }
+    #start-div p {
+        position: absolute;
+        top: 40%;
+        left: 28%;
+        z-index: 1000;
+        color: white;
+        width: 40%;
+        font-size: 1.5vw;
+    }
+}
+
+#questions-container {
+    height: 30%;
+    position: absolute;
+    z-index: 1000;
+    color: white;
+    /* left: 30%;
+    top: 65%;
+    width: 40%; */
+}
+
+#questions-container #choiceDiv {
+    margin-top: 5%;
+}
+
+#questions-container #choiceDiv {
+    width: 100%;
+}
+
+
+/* 1440 x 716 Done*/
+
+
+/* 1420 x 778 Done*/
+
+
+/* 1440 x 789 Done*/
+
+
+/* 1397 x 716 Done*/
+
+
+/* 1178 x 775 Done*/
+
+
+/* 712 x 414 Done*/
+
+
+/* 707 x 414 Done*/
+
+
+/* my phone is 750 x 390 
+   750 x  562
+*/
+
+
+/* 778 x 364 Done*/
+
+
+/* Carolas phone is 800 x 331 Done*/
+
+
+/* 800 x 361  Done*/
+
+
+/* #questions-container {
+    left: 27.5%;
+    top: 52%;
+    width: 40%;
+} */
+
+#questions-container h6 {
+    font-size: 1.8vw;
+}
+
+#questions-container h6 {
+    text-align: justify;
+    text-align-last: center;
+    /* font-size: 1.2vw; */
+}
+
+
+/*  below styles are temporary */
+
+
+/* 
+#testContainer img {
+    height: 100vh;
+    object-fit: cover;
+}
+
+#testContainer #testCenterDiv {
+    position: absolute;
+    left: 28%;
+    top: 45%;
+    width: 40%;
+    color: white;
+}
+
+#testContainer #testCenterDiv h6 {
+    font-size: 80%;
+}
+
+#testContainer #choiceDiv {
+    position: absolute;
+    left: 0%;
+    top: 75%;
+    z-index: 1000;
+    width: 100%;
+    color: white;
+    font-size: 50%;
+} */
+
+
+/* #footerTest {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+} */

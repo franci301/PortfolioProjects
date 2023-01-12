@@ -1,0 +1,62 @@
+#middle-container {
+    padding-right: 5%;
+    gap: 3%;
+    font-size: small;
+}
+
+#middle-container p {
+    margin: 0;
+    width: 150px;
+    color: var(--brown);
+}
+
+footer input {
+    color: var(--brown);
+    width: 99%;
+}
+
+#middle-container div {
+    margin: 0;
+    text-align: left;
+}
+
+#middle-container h5 {
+    color: var(--red);
+    font-weight: bold;
+    font-size: medium;
+}
+
+#footerLogo {
+    padding-left: 3%;
+    padding-bottom: 2%;
+    text-align: left;
+}
+
+#footerLogo h6 {
+    color: var(--brown);
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+}
+
+#logo {
+    max-height: 40px;
+    object-fit: cover;
+    margin-bottom: 3px;
+}
+
+footer {
+    background-color: var(--yellow);
+}
+
+@media screen and (max-width:383px) {
+    #middle-container {
+        padding-right: 0% !important;
+    }
+}
+
+@media screen and (min-width:1500px) {
+    #logo {
+        /* width: 10% !important; */
+    }
+}
