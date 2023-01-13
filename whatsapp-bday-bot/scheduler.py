@@ -20,8 +20,7 @@ from apscheduler.schedulers.blocking import BlockingScheduler
 db = firestore.client()
 collection = db.collection('check')
 app = Flask(__name__)
-account_sid = 'ACefa837a93bd287d3b281f55fbb0b523e'
-auth_token = 'b29b7298d29a1c1575c6ef6671d6e667'
+
 client = Client(account_sid,auth_token)
 
 
@@ -33,13 +32,13 @@ if(len(upcomingBirthdays) != 0):
         message = client.messages.create(
             body=f"It is {upcomingBirthdays[i][0]}'s birthday today! Remember to wish them a happy birthday",
             from_='whatsapp:+14155238886',
-            to='whatsapp:+447711143105'
+            to='whatsapp:'
         )
 else:
     message = client.messages.create(
         body="There are no birthdays today",
         from_='whatsapp:+14155238886',
-        to='whatsapp:+447711143105'
+        to='whatsapp:+'
     )
 
 # sched = BackgroundScheduler()
